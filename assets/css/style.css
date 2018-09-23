@@ -1,0 +1,68 @@
+/* General style */
+.fleft {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.width-auto {
+	width: auto;
+}
+.margin-bottom-0 {
+	margin-bottom: 0;
+}
+.align-items-center {
+	display: flex;
+	align-items: center;;
+}
+
+
+/* Individual style */
+#main-wrapper {
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+    /*background: #EEEEEE;*/
+}
+#loadtime {
+	background: #EEEEEE;
+	padding: 1rem;
+	border-radius: 5px;
+}
+#loadtime-label {
+	font-weight: bold;
+    padding-right: 1rem;
+}
+#content {
+	background: #EEEEEE;
+	padding: 1rem;
+	border-radius: 5px;
+}
+#devices {
+	border-right: 1px solid lightgrey;
+}
+.device-item-label {
+	font-weight: bold;
+}
+h3 {
+	margin-bottom: 2rem;
+}
+.devices-no {
+	font-size: 16px;
+	background: #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 0 4px;
+}
+.device-added-item {
+	color: #008000;
+	font-weight: bold;
+}
+.device-removed-item {
+	color: #cc3300;
+	font-weight: bold;
+}
+.device-updated-item {
+	color: #3366cc;
+	font-weight: bold;
+	border-bottom: 1px solid #999999;
+}
